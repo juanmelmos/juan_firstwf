@@ -2,7 +2,7 @@ name: workflow of el nano
 on: workflow_dispatch
 jobs:
   first_job:
-    runs-on: windows-latest
+    runs-on: macos-latest
     steps:
       - name: Print Nano
         run: echo "Fernando Alonso Díaz"
