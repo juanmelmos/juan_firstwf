@@ -1,0 +1,10 @@
+name: workflow of el nano
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Nano
+        run: echo "Fernando Alonso Díaz"
+      - name: Print La33
+        run: echo "Se viene la 33..."
